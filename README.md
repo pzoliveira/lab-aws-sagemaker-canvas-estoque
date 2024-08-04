@@ -30,20 +30,20 @@ Em seguida, acessar o AWS Console Management e o SageMaker Canvas. Depois, criar
 
 -   No SageMaker Canvas, importe o dataset que você selecionou. Feito!
 -   Configure as variáveis de entrada e saída de acordo com os dados. Feito!
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset. Escolhido o quick build para o novo modelo time-series prediction!
+-   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset. Escolhido o quick build para o novo modelo time-series forecast para 02 dias, limite de 09 dias!
 
 ### 3. Analisar
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+-   Após o treinamento, as métricas de performance do modelo foram: Avg. wQL = 0.070, MAPE = 0.119, RMSE = 1.728, MASE = 0.888
+-   Verifique as principais características que influenciam as previsões. Influência de 44.63% de QUANTIDADE_ESTOQUE.
+-   Como o desempenho foi satisfatório, não foi feito o retreino.
 
 ### 4. Prever
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+-   Use o modelo treinado para fazer previsões de estoque. Feitas previsões simples para alguns itens.
+-   Exporte os resultados e analise as previsões geradas. Feito!
+-   Documente suas conclusões e qualquer insight obtido a partir das previsões. Como a previsão foi feita para 02 dias a frente, percebe-se que os gráficos fazem curva.
 
-## 🤔 Dúvidas?
+## Conclusões
 
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+A experiência de aprendizado de Machine Learning com o AWS SageMaker Canvas / Studio foi enriquecedora e foi atingido o objetivo de se aliar teoria e prática.
