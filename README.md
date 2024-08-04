@@ -2,10 +2,11 @@
 
 Nesse desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas, vamos aprender a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML) através dos passos abaixo!
 
-## 📋 Pré-requisito
+## 📋 Pré-requisitos
 
 Ter uma conta na AWS. Repositório para lhe ajudar a criar uma conta: [AWS Cloud Quickstart](https://github.com/digitalinnovationone/aws-cloud-quickstart).
 Atendido, conta criada na AWS com sucesso!
+Em seguida, acessar o AWS Console Management e o SageMaker Canvas. Depois, criar um domínio para começar o Projeto.
 
 
 ## 🎯 Objetivos deste Desafio de Projeto (Lab)
@@ -21,8 +22,8 @@ Atendido, conta criada na AWS com sucesso!
 
 ### 1. Selecionar Dataset
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
+-   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets para escolher, treinar e testar seu modelo de ML.
+-   Foi escolhido o `dataset` _dataset-1000-com-preco-variavel-e-renovacao-estoque.csv_.
 -   Faça o upload do dataset no SageMaker Canvas.
 
 ### 2. Construir/Treinar
