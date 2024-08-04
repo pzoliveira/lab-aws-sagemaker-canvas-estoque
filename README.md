@@ -14,7 +14,7 @@ Em seguida, acessar o AWS Console Management e o SageMaker Canvas. Depois, criar
 ![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
 
 - Após o fork deste projeto, reescreva o `README.md` do seu jeito.
-- Siga o [passo a passo] a seguir para desenvolver seu projeto em ML no-code com o Amazon SageMaker Canvas.
+- Siga o passo a passo a seguir para desenvolver seu projeto em ML no-code com o Amazon SageMaker Canvas.
 - Ao final, envie a URL do seu repositório com a solução na plataforma da DIO.
 
 
@@ -24,13 +24,13 @@ Em seguida, acessar o AWS Console Management e o SageMaker Canvas. Depois, criar
 
 -   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets para escolher, treinar e testar seu modelo de ML.
 -   Foi escolhido o `dataset` _dataset-1000-com-preco-variavel-e-renovacao-estoque.csv_.
--   Faça o upload do dataset no SageMaker Canvas.
+-   Faça o upload do dataset no SageMaker Canvas. Feito!
 
 ### 2. Construir/Treinar
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+-   No SageMaker Canvas, importe o dataset que você selecionou. Feito!
+-   Configure as variáveis de entrada e saída de acordo com os dados. Feito!
+-   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset. Escolhido o quick build para o novo modelo time-series prediction!
 
 ### 3. Analisar
 
